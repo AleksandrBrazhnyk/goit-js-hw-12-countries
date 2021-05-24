@@ -1,0 +1,16 @@
+<ul class="preview_list">
+  {{#each this}}
+    <li class="mini_flag">
+      <img class="preview_pic" src="{{flag}}" alt="flag{{name}}" width="100">
+      <h3 class="preview_title" data-name="{{name}}">{{name}}</h3>
+    </li>
+  {{/each}}
+</ul>
+{{!-- 
+{{#each this}}
+    <ul class="countries-list">
+        <li>{{name}}
+            <img src="{{flag}}" alt="flag" width="50">
+        </li>
+    </ul>
+{{/each}} --}}
